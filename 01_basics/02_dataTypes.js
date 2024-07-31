@@ -20,5 +20,5 @@ let isLoggedIn = true
 // objet
 
 
-console.log(typeof "Meheei");
+console.log(typeof "Mehedi");
 
