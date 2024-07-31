@@ -9,9 +9,6 @@ let name = "Mehedi"
 let age = 30
 let isLoggedIn = true
 
-console.log(isLoggedIn);
-
-
 // number => 2 to power 53
 // bigint 
 // string => ""
@@ -21,4 +18,6 @@ console.log(isLoggedIn);
 // symbol => uniqe
 
 // objet
+
+console.log(typeof "Meheei");
 
