@@ -3,6 +3,7 @@ let acountEmail = "demo@demo.com"
 var acountPassword = "1223456"
 acountCity = "Jaipur"
 
+let visitor = 123
 
 
 //acountId = 14455355555555
@@ -12,12 +13,12 @@ acountCity = "Jaipur333333333399999"
 
 console.log(acountEmail);
 
-console.table([acountId, acountEmail, acountPassword, acountCity])
+console.table([acountId, acountEmail, acountPassword, acountCity, visitor])
 
 
 /*
 Prefer not to use var
-because of issue in block scoe and funtinal scope
+because of issue in block scope and funtinal scope
 */
 
 
