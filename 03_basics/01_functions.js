@@ -32,3 +32,31 @@ function loginUserMessage(username) {
 }
 
 console.log(loginUserMessage())
+
+
+function calculatecartPrice(...num1) {
+    return num1
+}
+// console.log(calculatecartPrice(300, 340, 55))
+
+
+const user = {
+   username: "mehedi",
+   price: "3000",
+}
+
+function handleObject(onetherObj){
+   console.log(`username is ${onetherObj.username} and price is ${onetherObj.price}`)
+}
+// handleObject(user)
+
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+const myNewArray =  [122, 15, 16, 67];
+function getArr(arr) {
+    console.log(`arr is ${arr.myNewArray}`)
+}
+console.log(myNewArray)
