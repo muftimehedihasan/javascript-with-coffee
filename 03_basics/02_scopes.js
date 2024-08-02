@@ -63,6 +63,27 @@ function outerFunction() {
 outerFunction();
 
 
+var a = "Hey"
+first()
+function first(){
+    var b = "Hello"
+    second()
+
+    function second(){
+       var c = "Hi"
+       console.log(a + b + c)
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
