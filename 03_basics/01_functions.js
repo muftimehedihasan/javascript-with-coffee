@@ -66,3 +66,41 @@ let sameValue = function(){
     console.log( "This is a function")
 }
 sameValue()
+
+
+const person = {
+    name: 'John',
+    greet: function() {
+        console.log(this.name);
+    }
+};
+person.greet(); // 'John'
+
+
+let globalVar = 'I am global!';
+
+function outerFunction() {
+    let outerVar = 'I am in outerFunction!';
+
+    function innerFunction() {
+        let innerVar = 'I am in innerFunction!';
+        console.log(globalVar); // গ্লোবাল স্কোপ থেকে
+        console.log(outerVar);  // প্যারেন্ট স্কোপ থেকে
+        console.log(innerVar);  // বর্তমান স্কোপ থেকে
+    }
+
+    innerFunction();
+}
+
+outerFunction();
+
+
+// * হোস্টিংয়ের কারণে, আপনি ফাংশনগুলো প্রথমে কল করতে পারেন এবং 
+// পরে স্ক্রিপ্টের নিচে তাদের সংজ্ঞায়িত করতে পারেন। উদাহরণস্বরূপ:
+
+sayHello()
+
+function sayHello() {
+    console.log("Hello from hoisting")
+}
+
