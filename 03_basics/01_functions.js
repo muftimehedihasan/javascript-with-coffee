@@ -60,3 +60,9 @@ function getArr(arr) {
     console.log(`arr is ${arr.myNewArray}`)
 }
 console.log(myNewArray)
+
+
+let sameValue = function(){
+    console.log( "This is a function")
+}
+sameValue()
